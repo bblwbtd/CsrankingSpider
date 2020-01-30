@@ -6,7 +6,7 @@ A small program which is used to fetch all personal page of professors on http:/
 ## Getting Start
 1. Install pipenv with ```pip3 install pipenv```
 2. Install dependencies with ```pipenv install```
-3. Run program with ```pipenv run python3 Starup.py```
+3. Run program with ```pipenv run python3 Startup.py```
 
 ## Configuration
 You can change the configuration in the ```Starup.py```
