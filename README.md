@@ -9,7 +9,7 @@ A small program which is used to fetch all personal page of professors on http:/
 3. Run program with ```pipenv run python3 Startup.py```
 
 ## Configuration
-You can change the configuration in the ```Starup.py```
+You can change the configuration in the ```Startup.py```
 
 - ```output_directory``` indicates where pages will be stored.
 - ```batch_size``` how many requests will be sent concurrently.
