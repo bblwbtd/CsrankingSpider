@@ -22,7 +22,7 @@ async def schedule_tasks(out_directory, professor_information, batch_size):
         for index, result in enumerate(results):
             if isinstance(result, str):
                 info = batch[index]
-                save_to_file(out_directory, f'{info[0]}_{info[1]}.txt', result)
+                save_to_file(out_directory, f'{info[0]}_{info[1]}.pkl', result)
 
 
 async def main(out_directory='out/', batch_size=10, csranking_file_path='csranking.csv'):
